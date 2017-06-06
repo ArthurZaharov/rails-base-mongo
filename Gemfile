@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.3.3"
 
-gem "pg"
+gem "mongoid"
 gem "rails", "5.0.2"
 
 # assets
