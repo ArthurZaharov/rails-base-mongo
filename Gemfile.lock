@@ -69,6 +69,7 @@ GEM
       debug_inspector (>= 0.0.1)
     brakeman (3.5.0)
     bson (4.2.1)
+    bson_ext (1.5.1)
     builder (3.2.3)
     bullet (5.5.0)
       activesupport (>= 3.0.0)
@@ -442,6 +443,7 @@ DEPENDENCIES
   autoprefixer-rails
   awesome_print
   brakeman
+  bson_ext
   bullet
   bundler-audit
   byebug

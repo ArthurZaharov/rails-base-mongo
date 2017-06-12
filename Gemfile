@@ -28,6 +28,7 @@ gem "simple_form"
 gem "slim"
 
 # all other gems
+gem "bson_ext"
 gem "decent_decoration"
 gem "decent_exposure"
 gem "devise"

@@ -5,7 +5,7 @@ development:
     default:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      database: rails_base_development
+      database: <%= ENV.fetch("DATABASE_NAME", File.basename(Rails.root)) %>_dev
       # Provides the hosts the default client can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
@@ -138,7 +138,7 @@ development:
 test:
   clients:
     default:
-      database: rails_base_test
+      database: <%= ENV.fetch("DATABASE_NAME", File.basename(Rails.root)) %>_test
       hosts:
         - localhost:27017
       options:
