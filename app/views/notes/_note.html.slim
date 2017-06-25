@@ -1,0 +1,7 @@
+h5 = note.title
+strong = note.content
+p = link_to "delete",
+            note_path(note),
+            method: :delete,
+            data: { confirm: "Are you sure?", disable_with: "deleting..." }
+hr
