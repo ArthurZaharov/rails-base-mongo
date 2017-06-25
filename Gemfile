@@ -47,6 +47,7 @@ gem "responders"
 gem "rollbar"
 gem "seedbank"
 gem "stackprof"
+gem "birthday_age", git: "git@github.com:ArthurZaharov/birthday_age.git"
 
 group :staging, :production do
   gem "newrelic_rpm"
