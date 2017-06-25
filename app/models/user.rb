@@ -4,6 +4,7 @@ class User < ApplicationRecord
 
   field :full_name, type: String
   field :email, type: String, default: ""
+  field :birthday, type: Date
   field :encrypted_password, type: String, default: ""
   field :reset_password_token, type: String
   field :reset_password_sent_at, type: DateTime
@@ -19,4 +20,6 @@ class User < ApplicationRecord
   field :last_sign_in_ip, type: String
 
   validates :full_name, presence: true
+
+  has_many :notes
 end
