@@ -21,5 +21,5 @@ class User < ApplicationRecord
 
   validates :full_name, presence: true
 
-  has_many :notes
+  has_many :notes, dependent: :destroy
 end

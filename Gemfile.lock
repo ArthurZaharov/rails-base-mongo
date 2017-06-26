@@ -1,4 +1,11 @@
 GIT
+  remote: git@github.com:ArthurZaharov/birthday_age.git
+  revision: 30117b815ce4abbf064f44b79304ef7746e10378
+  specs:
+    birthday_age (0.0.1)
+      rails (~> 5.0.0)
+
+GIT
   remote: https://github.com/MiniProfiler/rack-mini-profiler.git
   revision: 1b79f49f36dfe16f7a8c9c75753decb37bec186c
   specs:
@@ -438,6 +445,7 @@ DEPENDENCIES
   active_link_to
   autoprefixer-rails
   awesome_print
+  birthday_age!
   brakeman
   bson_ext
   bundler-audit
