@@ -28,6 +28,7 @@ gem "simple_form"
 gem "slim"
 
 # all other gems
+gem "birthday_age", git: "git@github.com:ArthurZaharov/birthday_age.git"
 gem "bson_ext"
 gem "decent_decoration"
 gem "decent_exposure"
@@ -47,7 +48,6 @@ gem "responders"
 gem "rollbar"
 gem "seedbank"
 gem "stackprof"
-gem "birthday_age", git: "git@github.com:ArthurZaharov/birthday_age.git"
 
 group :staging, :production do
   gem "newrelic_rpm"
