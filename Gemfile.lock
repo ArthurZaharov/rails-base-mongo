@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:ArthurZaharov/birthday_age.git
+  remote: https://github.com/ArthurZaharov/birthday_age.git
   revision: 30117b815ce4abbf064f44b79304ef7746e10378
   specs:
     birthday_age (0.0.1)
