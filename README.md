@@ -63,9 +63,8 @@ brew bundle
 ### Heroku
 
 ```bash
-heroku create --addons=heroku-postgresql,sendgrid,newrelic,rollbar --remote staging rails-base-mongo-example
-heroku config:add HOST="rails-base-mongo-example.herokuapp.com" MAILER_SENDER_ADDRESS="noreply@rails-base-mongo-example.herokuapp.com" NEW_RELIC_APP_NAME="Rails Base Mongo"
+heroku create --addons=mongolab,sendgrid --remote staging rails-base-mongo-example
+heroku config:add HOST="rails-base-mongo-example.herokuapp.com" MAILER_SENDER_ADDRESS="noreply@rails-base-mongo-example.herokuapp.com"
 git push staging master
-heroku run rake db:schema:load
 heroku open
 ```
